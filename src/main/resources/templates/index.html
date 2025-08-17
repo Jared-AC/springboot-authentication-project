@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8fbff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 350px;
+        }
+
+        h1 {
+            color: #1e3a8a; /* azul oscuro elegante */
+            margin-bottom: 20px;
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            color: #ffffff;
+            background: #2563eb; /* azul vibrante */
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            transition: background 0.3s ease;
+            font-weight: bold;
+        }
+
+        a:hover {
+            background: #1e40af; /* azul más fuerte */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido a la App</h1>
+        <a href="/register">Registrarse</a>
+        <a href="/login">Iniciar Sesión</a>
+    </div>
+</body>
+</html>
